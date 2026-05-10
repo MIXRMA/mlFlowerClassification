@@ -1,0 +1,25 @@
+# ─── Core ML / Deep Learning ───────────────────────────────────────────────────
+torch>=2.2.0
+torchvision>=0.17.0
+
+# ─── Data & Numerics ───────────────────────────────────────────────────────────
+numpy>=1.26.0
+scipy>=1.12.0          # required for loading Oxford .mat label files
+Pillow>=10.2.0         # image loading, resizing, colour profile normalisation
+
+# ─── Machine Learning Utilities ────────────────────────────────────────────────
+scikit-learn>=1.4.0    # SVM classifier, metrics, train/test split utilities
+matplotlib>=3.8.0      # training curve plots, confusion matrix visualisation
+seaborn>=0.13.0        # styled confusion matrix heatmaps
+
+# ─── Web Interface ─────────────────────────────────────────────────────────────
+flask>=3.0.0
+Werkzeug>=3.0.0        # secure file handling for uploads
+
+# ─── Image Fetching from URLs (Google Images / any internet source) ─────────────
+requests>=2.31.0
+urllib3>=2.0.0
+
+# ─── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.66.0           # progress bars during training and dataset loading
+colorama>=0.4.6        # coloured terminal output on macOS
